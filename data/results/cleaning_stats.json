@@ -1,0 +1,161 @@
+{
+  "source_directory": "1998-上半年-带音",
+  "output_directory": "data/cleaned",
+  "encoding_in": "gb18030",
+  "encoding_out": "utf-8",
+  "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "rules": [
+    "删除行首记录编号（编号另存元数据）",
+    "删除成对花括号注音",
+    "按现有空白切词并规范为单空格",
+    "保留标点及全角数字",
+    "跳过解码失败或含替换字符的行并记录",
+    "不去重，不划分训练/验证/测试集"
+  ],
+  "files": [
+    {
+      "source": "1998-01-2003版-带音.txt",
+      "source_bytes": 5320005,
+      "source_sha256": "37b85555df2f72642ff9815ac01f51d4f50024d80ca0e2e8a6be6f93b1038639",
+      "source_lines": 23258,
+      "removed_record_ids": 19358,
+      "removed_pronunciations": 14409,
+      "output_paragraphs": 19358,
+      "output_tokens": 1120542,
+      "blank_lines": 3900,
+      "articles_with_output": 3132,
+      "clean_txt": "data/cleaned/1998-01.txt",
+      "clean_txt_sha256": "9bd22109459dbf2dfd8a74e09e47362a65cc72b7e98c4b70624a587983028c61",
+      "clean_jsonl": "data/cleaned/1998-01.jsonl",
+      "clean_jsonl_sha256": "c8f3b7c4c6d3e84a8deafade57dd4ef7985ec66de2cebf7a01aa1eab315f9c39"
+    },
+    {
+      "source": "1998-02-2003版-带音.txt",
+      "source_bytes": 5441098,
+      "source_sha256": "a050351664f459aed2247bc45cd46c25da2ce893e11c44a9dea06a54529f19d8",
+      "source_lines": 21603,
+      "removed_record_ids": 18847,
+      "removed_pronunciations": 15387,
+      "output_paragraphs": 18847,
+      "output_tokens": 1153920,
+      "blank_lines": 2756,
+      "articles_with_output": 2626,
+      "clean_txt": "data/cleaned/1998-02.txt",
+      "clean_txt_sha256": "a26f5c21ace31316cb815ddbaa7470da448c08a369951fb0c5e1ec5c63cc67eb",
+      "clean_jsonl": "data/cleaned/1998-02.jsonl",
+      "clean_jsonl_sha256": "308a7e5b1cd0d38be344c80c60e4b9fc2c8d7163b25447dfd7bd315790bdcbf6"
+    },
+    {
+      "source": "1998-03-2003版-带音.txt",
+      "source_bytes": 5951910,
+      "source_sha256": "2f9d8ecfd92eec1b8a7009bd146da5faad218a34ae17fe460944bd772b2e97db",
+      "source_lines": 24685,
+      "removed_record_ids": 21496,
+      "removed_pronunciations": 15067,
+      "output_paragraphs": 21496,
+      "output_tokens": 1247000,
+      "blank_lines": 3188,
+      "skipped_encoding_lines": 1,
+      "articles_with_output": 2905,
+      "clean_txt": "data/cleaned/1998-03.txt",
+      "clean_txt_sha256": "a4abb6d9fb8f8f0b063f568bc5af66e83f68cb719c5bd64595b6efd2c2284567",
+      "clean_jsonl": "data/cleaned/1998-03.jsonl",
+      "clean_jsonl_sha256": "7b4430578da3cd8375663c1cce7c305d23f63ebe218dfd29ead35ff312f226e7"
+    },
+    {
+      "source": "1998-04-2003版-带音.txt",
+      "source_bytes": 6107764,
+      "source_sha256": "43462d53f2f7603168745af3200a9e6fe883ddcdf18618280358499e0ffc3fca",
+      "source_lines": 25145,
+      "removed_record_ids": 21494,
+      "removed_pronunciations": 17195,
+      "output_paragraphs": 21494,
+      "output_tokens": 1289594,
+      "blank_lines": 3650,
+      "skipped_encoding_lines": 1,
+      "articles_with_output": 3465,
+      "clean_txt": "data/cleaned/1998-04.txt",
+      "clean_txt_sha256": "4e1beaaf3c18d9b5b2efff7d2a12e77ccda702856895303827daedbc3b717dde",
+      "clean_jsonl": "data/cleaned/1998-04.jsonl",
+      "clean_jsonl_sha256": "14095e9c961f0a72055896daa6613c12407bf63e2930e8d36bed2dc05190920e"
+    },
+    {
+      "source": "1998-05-2003版-带音.txt",
+      "source_bytes": 5920187,
+      "source_sha256": "04ae37614a55c2418bcb5c7697c4980afa75a74734e930f06bee6e83022d0aea",
+      "source_lines": 24880,
+      "removed_record_ids": 21418,
+      "removed_pronunciations": 16866,
+      "output_paragraphs": 21418,
+      "output_tokens": 1246973,
+      "blank_lines": 3459,
+      "skipped_encoding_lines": 3,
+      "articles_with_output": 3223,
+      "clean_txt": "data/cleaned/1998-05.txt",
+      "clean_txt_sha256": "cb834a52b941229bb463398f9171c0ce5a19db93b9e434bfeaf10ec2ca1c00d7",
+      "clean_jsonl": "data/cleaned/1998-05.jsonl",
+      "clean_jsonl_sha256": "9ed1fe7cff5916e30ed9a82203845b080210b81a4ac8a1542d7fab2a73be34ba"
+    },
+    {
+      "source": "1998-06-2003版-带音.txt",
+      "source_bytes": 5946378,
+      "source_sha256": "f18f8f3d6e886644baf8306e1f08a31e3a8d390709782f913ae1ea12f3e97c5f",
+      "source_lines": 24195,
+      "removed_record_ids": 21143,
+      "removed_pronunciations": 16163,
+      "output_paragraphs": 21143,
+      "output_tokens": 1251734,
+      "blank_lines": 3052,
+      "articles_with_output": 3280,
+      "clean_txt": "data/cleaned/1998-06.txt",
+      "clean_txt_sha256": "7de0bf336961577dc094025bf7c9c1b9146c9a9eaf7915027ee80cb27a437724",
+      "clean_jsonl": "data/cleaned/1998-06.jsonl",
+      "clean_jsonl_sha256": "ca514449709f5e01e9836b4d9961c050c384709b259a4ea91b650af44c66f8c4"
+    }
+  ],
+  "skipped_lines": [
+    {
+      "source": "1998-03-2003版-带音.txt",
+      "line": 17688,
+      "reason": "GB18030解码失败：'gb18030' codec can't decode byte 0xad in position 28: illegal multibyte sequence"
+    },
+    {
+      "source": "1998-04-2003版-带音.txt",
+      "line": 24499,
+      "reason": "GB18030解码失败：'gb18030' codec can't decode byte 0xad in position 462: illegal multibyte sequence"
+    },
+    {
+      "source": "1998-05-2003版-带音.txt",
+      "line": 4531,
+      "reason": "GB18030解码失败：'gb18030' codec can't decode byte 0xad in position 125: illegal multibyte sequence"
+    },
+    {
+      "source": "1998-05-2003版-带音.txt",
+      "line": 4537,
+      "reason": "GB18030解码失败：'gb18030' codec can't decode byte 0xad in position 89: illegal multibyte sequence"
+    },
+    {
+      "source": "1998-05-2003版-带音.txt",
+      "line": 4539,
+      "reason": "GB18030解码失败：'gb18030' codec can't decode byte 0xad in position 43: illegal multibyte sequence"
+    }
+  ],
+  "totals": {
+    "source_lines": 143766,
+    "removed_record_ids": 123756,
+    "removed_pronunciations": 95087,
+    "output_paragraphs": 123756,
+    "output_tokens": 7309763,
+    "blank_lines": 20005,
+    "articles_with_output": 18631,
+    "skipped_encoding_lines": 5
+  },
+  "verification": {
+    "source_hashes_unchanged": true,
+    "line_accounting_ok": true,
+    "no_residual_markers": true,
+    "verified_output_paragraphs": 123756
+  },
+  "elapsed_seconds": 3.6585
+}

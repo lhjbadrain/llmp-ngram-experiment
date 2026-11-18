@@ -1,0 +1,13 @@
+/1998-上半年-带音/
+/data/cleaned/
+/data/splits/
+/models/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.env
+.env.*
+.DS_Store
+Thumbs.db

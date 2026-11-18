@@ -1,0 +1,176 @@
+{
+  "run_time_local": "2026-11-18T16:34:21.123258+08:00",
+  "python": "3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "python",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "nltk_version": "3.9.1",
+  "tool": "NLTK WittenBellInterpolated",
+  "training_timing_scope": "仅model.fit及其遍历n-gram的时间；不含分词、划分、词表、保存、检查和评测",
+  "vocabulary_sha256": "3a0e53181fc563487d50cb2bae9862b37d3aa7c29e0061a231e329b25eaa6691",
+  "vocabulary_size_including_specials": 10451,
+  "shared_training_paragraphs": 3396,
+  "training_unk_tokens": 10251,
+  "runs": [
+    {
+      "order": 2,
+      "train_seconds": 1.125402,
+      "save_seconds": 0.079693,
+      "model_bytes": 1359999,
+      "model_sha256": "011d5f3fdffa3e3dee4a5560f80fd03d5440d4e98d7969af7b0c7be3684cc444",
+      "model_path": "models/2gram.pkl",
+      "ngram_types_by_order": [
+        10450,
+        101125
+      ],
+      "observations_by_order": [
+        203770,
+        203770
+      ],
+      "probability_checks": [
+        {
+          "context": [],
+          "probability_sum": 1.0
+        },
+        {
+          "context": [
+            "了"
+          ],
+          "probability_sum": 1.0
+        },
+        {
+          "context": [
+            "<UNK>"
+          ],
+          "probability_sum": 1.0
+        }
+      ],
+      "example_context": [
+        "了"
+      ],
+      "example_observed_followers": [
+        [
+          "<UNK>",
+          158
+        ],
+        [
+          "。",
+          115
+        ],
+        [
+          "，",
+          113
+        ],
+        [
+          "一",
+          95
+        ],
+        [
+          "“",
+          37
+        ]
+      ]
+    },
+    {
+      "order": 3,
+      "train_seconds": 2.301939,
+      "save_seconds": 0.412459,
+      "model_bytes": 5113610,
+      "model_sha256": "8a9474b17b802d86badbeaa4c0fa98a2eea7749c98f16424637418699d6c5053",
+      "model_path": "models/3gram.pkl",
+      "ngram_types_by_order": [
+        10450,
+        101125,
+        169105
+      ],
+      "observations_by_order": [
+        203770,
+        203770,
+        203770
+      ],
+      "probability_checks": [
+        {
+          "context": [],
+          "probability_sum": 1.0
+        },
+        {
+          "context": [
+            "了"
+          ],
+          "probability_sum": 1.0
+        },
+        {
+          "context": [
+            "<UNK>",
+            "<UNK>"
+          ],
+          "probability_sum": 1.0
+        }
+      ],
+      "example_context": [
+        "召开",
+        "了"
+      ],
+      "example_observed_followers": [
+        [
+          "『",
+          1
+        ],
+        [
+          "“",
+          1
+        ],
+        [
+          "<UNK>",
+          1
+        ]
+      ]
+    },
+    {
+      "order": 4,
+      "train_seconds": 2.724013,
+      "save_seconds": 1.085425,
+      "model_bytes": 11246843,
+      "model_sha256": "a8f7597b49b3768b44f4fdfda2f07ab52ff484eb643e2bc5a611aeaf68cd090b",
+      "model_path": "models/4gram.pkl",
+      "ngram_types_by_order": [
+        10450,
+        101125,
+        169105,
+        189932
+      ],
+      "observations_by_order": [
+        203770,
+        203770,
+        203770,
+        203770
+      ],
+      "probability_checks": [
+        {
+          "context": [],
+          "probability_sum": 1.0
+        },
+        {
+          "context": [
+            "了"
+          ],
+          "probability_sum": 1.0
+        },
+        {
+          "context": [
+            "<UNK>",
+            "<UNK>",
+            "<UNK>"
+          ],
+          "probability_sum": 1.0
+        }
+      ],
+      "example_context": [
+        "胜利",
+        "召开",
+        "了"
+      ],
+      "example_observed_followers": []
+    }
+  ],
+  "evaluation_status": "尚未评测困惑度或生成文本"
+}

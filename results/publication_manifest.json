@@ -1,0 +1,211 @@
+{
+  "note": "公开记录仅做路径相对化，移除异常行完整预览与原字节；实验参数、数值和生成文本保持不变。完整数据与模型未发布。",
+  "source_records": [
+    {
+      "path": "01_count_bigrams.py",
+      "source_sha256": "75ada5440029f433476439d877a89d30f7b7396a4a78c025d8f86dd84a808927"
+    },
+    {
+      "path": "02_clean_corpus.py",
+      "source_sha256": "1d988ca3bd6304f75ea014e36739624a72fbdf9d15e0d4a8d965a74d1555d8ed"
+    },
+    {
+      "path": "03_train_models.py",
+      "source_sha256": "f7a106c17a2663e6f09c738672d13710c464d8351038c70a2ea09d622de083b4"
+    },
+    {
+      "path": "04_generate_text.py",
+      "source_sha256": "438603439c9da7537503d1a807998bde2d99c8371128daa8685a74a37a7b828b"
+    },
+    {
+      "path": "05_evaluate_models.py",
+      "source_sha256": "8f843a3b613a95667b91579f14a50e96d6c1d0a42a888527d261e9f27041d753"
+    },
+    {
+      "path": "ngram_model.py",
+      "source_sha256": "7fd6602e22ee8d2157f2aef3234cef76ce88e73fc24206a8ac64c9e9920347cc"
+    },
+    {
+      "path": "requirements.txt",
+      "source_sha256": "c64c10091dce0567ac98f5a6ed9da1094c319b21c5893f11079998cb2a4ad400"
+    },
+    {
+      "path": "实验过程报告.md",
+      "source_sha256": "7924d242d2d946dcfee08b3d5f6328e3ca409d2c5c04ce0100d7ab471231f1de"
+    },
+    {
+      "path": "核心代码走读.md",
+      "source_sha256": "3fcddc42ecdb6c2b027a27f558a486d6a7a84e85939b548954b857d6b3ec410d"
+    },
+    {
+      "path": "results/evaluation_metrics.json",
+      "source_sha256": "7a88cf9ead528e74a2b8d15f584f525fa3e8941db3f16058802c3d9155d17635"
+    },
+    {
+      "path": "results/evaluation_report.md",
+      "source_sha256": "2c2a5c4dfcf476ce118408110c9ae45da3c4e380bbe06af408bdfa0d2487e5c4"
+    },
+    {
+      "path": "results/generation_metrics.json",
+      "source_sha256": "42b7d63aec0b94cb6cd4c78afb697ffaf79f7e7fe0b4a141d1e21d2d5bd518c1"
+    },
+    {
+      "path": "results/generation_report.md",
+      "source_sha256": "42b4d15774df330afa552b386113b7f1755354db0b58073b765bc5aef15de3ee"
+    },
+    {
+      "path": "results/learner_observations.md",
+      "source_sha256": "dd9ed2f4a1aea5cab7a2fd4d487e72b05f866296bf69e354d911b5a27d08f614"
+    },
+    {
+      "path": "results/split_manifest.json",
+      "source_sha256": "9f8c90eb153268e424a4d6f9df66acf0f13e260b2b550c23ec0200adcdf6fd3e"
+    },
+    {
+      "path": "results/training_metrics.json",
+      "source_sha256": "d50f14aeec3e9472a7a84e936ef846dfe54276154f7f389cbfbcc4367540e6b0"
+    },
+    {
+      "path": "results/training_report.md",
+      "source_sha256": "6071eb6b8337e32d8a092f6872dcfc1b02ae92a8bfbaf8bbdfab3962de558efb"
+    },
+    {
+      "path": "results/vocabulary.json",
+      "source_sha256": "3a0e53181fc563487d50cb2bae9862b37d3aa7c29e0061a231e329b25eaa6691"
+    },
+    {
+      "path": "data/results/cleaning_examples.json",
+      "source_sha256": "236788ba77479812017e954bf7506827364142280d06d940adbef82a46c156b7"
+    },
+    {
+      "path": "data/results/cleaning_report.md",
+      "source_sha256": "24acac11cf59a8e2ffb2cfed44fda5190ce91b2a052a432fac47fa164bc6eae5"
+    },
+    {
+      "path": "data/results/cleaning_stats.json",
+      "source_sha256": "83a6d8157d62c20cd5e7eb03a6475638d7774991c20fd4032fd81ae99842da79"
+    }
+  ],
+  "published_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "86aef46cd038a78b85d2fc1cf49c64209102989d4b294b7f3d6daa6fb1139d78",
+      "bytes": 152
+    },
+    {
+      "path": "01_count_bigrams.py",
+      "sha256": "75ada5440029f433476439d877a89d30f7b7396a4a78c025d8f86dd84a808927",
+      "bytes": 972
+    },
+    {
+      "path": "02_clean_corpus.py",
+      "sha256": "1d988ca3bd6304f75ea014e36739624a72fbdf9d15e0d4a8d965a74d1555d8ed",
+      "bytes": 10296
+    },
+    {
+      "path": "03_train_models.py",
+      "sha256": "f7a106c17a2663e6f09c738672d13710c464d8351038c70a2ea09d622de083b4",
+      "bytes": 11227
+    },
+    {
+      "path": "04_generate_text.py",
+      "sha256": "438603439c9da7537503d1a807998bde2d99c8371128daa8685a74a37a7b828b",
+      "bytes": 9546
+    },
+    {
+      "path": "05_evaluate_models.py",
+      "sha256": "8f843a3b613a95667b91579f14a50e96d6c1d0a42a888527d261e9f27041d753",
+      "bytes": 8198
+    },
+    {
+      "path": "data/results/cleaning_examples.json",
+      "sha256": "236788ba77479812017e954bf7506827364142280d06d940adbef82a46c156b7",
+      "bytes": 21497
+    },
+    {
+      "path": "data/results/cleaning_report.md",
+      "sha256": "24acac11cf59a8e2ffb2cfed44fda5190ce91b2a052a432fac47fa164bc6eae5",
+      "bytes": 5182
+    },
+    {
+      "path": "data/results/cleaning_stats.json",
+      "sha256": "4dbb1d818b3fb52052973880bd8e71645e7f595df407a6168d79a0f377db55ee",
+      "bytes": 6577
+    },
+    {
+      "path": "ngram_model.py",
+      "sha256": "7fd6602e22ee8d2157f2aef3234cef76ce88e73fc24206a8ac64c9e9920347cc",
+      "bytes": 810
+    },
+    {
+      "path": "Piazza提交草稿.md",
+      "sha256": "59bf42267c34e6100127adb2d400a22f3533bad1c231f667fee7c4e934f8a474",
+      "bytes": 7219
+    },
+    {
+      "path": "README.md",
+      "sha256": "b124eec9fc991955bf86ceeaa712f1583fbf616db4a4625100a0025810d40c68",
+      "bytes": 3242
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "c64c10091dce0567ac98f5a6ed9da1094c319b21c5893f11079998cb2a4ad400",
+      "bytes": 13
+    },
+    {
+      "path": "results/evaluation_metrics.json",
+      "sha256": "7a88cf9ead528e74a2b8d15f584f525fa3e8941db3f16058802c3d9155d17635",
+      "bytes": 5199
+    },
+    {
+      "path": "results/evaluation_report.md",
+      "sha256": "2c2a5c4dfcf476ce118408110c9ae45da3c4e380bbe06af408bdfa0d2487e5c4",
+      "bytes": 1808
+    },
+    {
+      "path": "results/generation_metrics.json",
+      "sha256": "42b7d63aec0b94cb6cd4c78afb697ffaf79f7e7fe0b4a141d1e21d2d5bd518c1",
+      "bytes": 250488
+    },
+    {
+      "path": "results/generation_report.md",
+      "sha256": "42b4d15774df330afa552b386113b7f1755354db0b58073b765bc5aef15de3ee",
+      "bytes": 6272
+    },
+    {
+      "path": "results/learner_observations.md",
+      "sha256": "dd9ed2f4a1aea5cab7a2fd4d487e72b05f866296bf69e354d911b5a27d08f614",
+      "bytes": 817
+    },
+    {
+      "path": "results/split_manifest.json",
+      "sha256": "4fc65fd37732a0d6ade6e37323a9e1b3fe9afd84fe9c67dce5853fc9083d470a",
+      "bytes": 20187
+    },
+    {
+      "path": "results/training_metrics.json",
+      "sha256": "ba499b8be8ec245ab0ec227cd6ebad7255bc582898054c60e46c1ccf1e65d88d",
+      "bytes": 3995
+    },
+    {
+      "path": "results/training_report.md",
+      "sha256": "6071eb6b8337e32d8a092f6872dcfc1b02ae92a8bfbaf8bbdfab3962de558efb",
+      "bytes": 1970
+    },
+    {
+      "path": "results/vocabulary.json",
+      "sha256": "3a0e53181fc563487d50cb2bae9862b37d3aa7c29e0061a231e329b25eaa6691",
+      "bytes": 161583
+    },
+    {
+      "path": "实验过程报告.md",
+      "sha256": "7bf1eff1ad6e32ea25a497627b119b19385b854d80a895ae6f0cda22171058c0",
+      "bytes": 16849
+    },
+    {
+      "path": "核心代码走读.md",
+      "sha256": "3fcddc42ecdb6c2b027a27f558a486d6a7a84e85939b548954b857d6b3ec410d",
+      "bytes": 8440
+    }
+  ]
+}

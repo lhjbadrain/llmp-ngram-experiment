@@ -1,0 +1,119 @@
+{
+  "run_time_local": "2026-11-18T16:51:30.179182+08:00",
+  "definition": "PPL=exp(-sum(log P(目标词|前n-1词))/计分目标数)",
+  "scoring_rules": "每段独立；BOS只作历史；每段一个EOS计分；所有正文OOV映射到共享UNK；不屏蔽UNK或进行top-k/温度变换",
+  "oov_denominator": "仅正文词，不含BOS/EOS",
+  "highest_order_hit_definition": "目标词与最高阶历史形成的n-gram训练时出现过；含边界项和UNK映射，不等于纯历史覆盖率",
+  "evaluation_timing_scope": "从遍历段落、词表映射到概率计算及统计，不含载入模型和读取文件",
+  "vocabulary_sha256": "3a0e53181fc563487d50cb2bae9862b37d3aa7c29e0061a231e329b25eaa6691",
+  "split_sha256": {
+    "valid": "76edbcd73e014d9ecafaab1665d4b54230c367352a562a4b2d56124123e271c2",
+    "test": "498993dce943ef077f7dc83c373d572d5ab774f660ee3dda99bec0003cac0690"
+  },
+  "runs": [
+    {
+      "order": 2,
+      "model_sha256": "011d5f3fdffa3e3dee4a5560f80fd03d5440d4e98d7969af7b0c7be3684cc444",
+      "valid": {
+        "paragraphs": 455,
+        "raw_body_tokens": 20933,
+        "predicted_tokens_including_eos": 21388,
+        "oov_body_tokens": 2465,
+        "oov_rate_excluding_eos": 0.11775665217599006,
+        "negative_log_probability_nats": 125480.14797929778,
+        "cross_entropy_bits": 8.464072714594455,
+        "perplexity": 353.1341941792304,
+        "highest_order_seen_targets": 13785,
+        "highest_order_hit_rate_including_eos": 0.6445202917523846,
+        "minimum_target_probability": 1.2473897139259408e-06,
+        "evaluation_seconds": 1.283746
+      },
+      "test": {
+        "paragraphs": 302,
+        "raw_body_tokens": 20571,
+        "predicted_tokens_including_eos": 20873,
+        "oov_body_tokens": 2161,
+        "oov_rate_excluding_eos": 0.10505079966943756,
+        "negative_log_probability_nats": 123172.98396720186,
+        "cross_entropy_bits": 8.51344095918066,
+        "perplexity": 365.4273891360964,
+        "highest_order_seen_targets": 13319,
+        "highest_order_hit_rate_including_eos": 0.638097063191683,
+        "minimum_target_probability": 1.2473897139259408e-06,
+        "evaluation_seconds": 1.389966
+      }
+    },
+    {
+      "order": 3,
+      "model_sha256": "8a9474b17b802d86badbeaa4c0fa98a2eea7749c98f16424637418699d6c5053",
+      "valid": {
+        "paragraphs": 455,
+        "raw_body_tokens": 20933,
+        "predicted_tokens_including_eos": 21388,
+        "oov_body_tokens": 2465,
+        "oov_rate_excluding_eos": 0.11775665217599006,
+        "negative_log_probability_nats": 127628.77361397762,
+        "cross_entropy_bits": 8.609004991940607,
+        "perplexity": 390.4529742569572,
+        "highest_order_seen_targets": 5288,
+        "highest_order_hit_rate_including_eos": 0.24724144380026183,
+        "minimum_target_probability": 2.5948714596279426e-07,
+        "evaluation_seconds": 1.472738
+      },
+      "test": {
+        "paragraphs": 302,
+        "raw_body_tokens": 20571,
+        "predicted_tokens_including_eos": 20873,
+        "oov_body_tokens": 2161,
+        "oov_rate_excluding_eos": 0.10505079966943756,
+        "negative_log_probability_nats": 125772.34397598672,
+        "cross_entropy_bits": 8.693102904955538,
+        "perplexity": 413.88980582347136,
+        "highest_order_seen_targets": 4796,
+        "highest_order_hit_rate_including_eos": 0.22977051693575432,
+        "minimum_target_probability": 2.2012759657516604e-07,
+        "evaluation_seconds": 1.280712
+      }
+    },
+    {
+      "order": 4,
+      "model_sha256": "a8f7597b49b3768b44f4fdfda2f07ab52ff484eb643e2bc5a611aeaf68cd090b",
+      "valid": {
+        "paragraphs": 455,
+        "raw_body_tokens": 20933,
+        "predicted_tokens_including_eos": 21388,
+        "oov_body_tokens": 2465,
+        "oov_rate_excluding_eos": 0.11775665217599006,
+        "negative_log_probability_nats": 129561.96525518266,
+        "cross_entropy_bits": 8.739405496609322,
+        "perplexity": 427.3888607590384,
+        "highest_order_seen_targets": 2005,
+        "highest_order_hit_rate_including_eos": 0.09374415560127174,
+        "minimum_target_probability": 7.503385494911889e-08,
+        "evaluation_seconds": 1.674258
+      },
+      "test": {
+        "paragraphs": 302,
+        "raw_body_tokens": 20571,
+        "predicted_tokens_including_eos": 20873,
+        "oov_body_tokens": 2161,
+        "oov_rate_excluding_eos": 0.10505079966943756,
+        "negative_log_probability_nats": 127748.40217646146,
+        "cross_entropy_bits": 8.829683624848839,
+        "perplexity": 454.9876655036391,
+        "highest_order_seen_targets": 1546,
+        "highest_order_hit_rate_including_eos": 0.0740669764767882,
+        "minimum_target_probability": 3.884604645444107e-08,
+        "evaluation_seconds": 1.458247
+      }
+    }
+  ],
+  "verification": {
+    "models_and_splits_match_training": true,
+    "counting_denominators_checked": true,
+    "all_target_probabilities_positive": true,
+    "training_observation_counts_unchanged": true,
+    "saved_models_unchanged": true,
+    "shared_oov_mapping": true
+  }
+}
